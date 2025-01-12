@@ -1,4 +1,3 @@
-import 'package:first_app/pages/api_screen.dart';
 import 'package:flutter/material.dart';
 import '../pages/sobre_screen.dart';
 import '../pages/privacidade_screen.dart';
