@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/url_factory.dart';
 import 'package:flutter_widget_from_html_core/flutter_widget_from_html_core.dart';
+
+import '../url_factory.dart';
 
 class SobreScreen extends StatelessWidget {
   const SobreScreen({super.key});

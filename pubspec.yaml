@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_widget_from_html_core: ^0.15.2
   fwfh_url_launcher: ^0.9.1
-  dio: ^5.0.0
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:

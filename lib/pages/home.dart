@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import '../pages/sobre_screen.dart';
-import '../pages/privacidade_screen.dart';
+
+import 'sobre.dart';
+import 'privacidade.dart';
+import 'privacy.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -42,6 +44,18 @@ class HomeScreen extends StatelessWidget {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(builder: (context) => const PrivacidadeScreen()),
+                            );
+                        },
+                    ),
+                ),
+                Padding(
+                    padding: const EdgeInsets.only(top: 0.0),
+                    child: ListTile(
+                        title: const Text('Privacidade'),
+                        onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => const PrivacyScreen()),
                             );
                         },
                     ),
